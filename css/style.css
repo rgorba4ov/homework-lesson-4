@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato-Medium.woff2') format('woff2'),
+        url('../fonts/Lato-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato-Bold.woff2') format('woff2'),
+        url('../fonts/Lato-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato-Regular.woff2') format('woff2'),
+        url('../fonts/Lato-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Стили обнуления */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+
+body {
+	line-height: 1;
+	font-family: 'Lato', sans-serif;
+	color: #6A6A6A;
+}
+/* --------------- */
+
+.main__block-title {
+	font-family: 'Lora';
+	font-weight: 700;
+	font-size: 52px;
+	line-height: 67px;
+}
+
+.main__block-text {
+	font-family: 'Lato';
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 30px;
+	text-shadow: 5px 3px 3px rgba(0, 0, 0, 0.644);
+}
+
+.main__block-title > span {
+	color: rgba(221, 44, 0, 1);
+	text-shadow: 3px 3px 3px #000;
+	letter-spacing: 5px
+}
+
+.spaces__block-title {
+	font-family: Lora;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 51px;
+	color: #10375C;
+	text-shadow: -5px 5px 2px rgba(235, 9, 9, 0.74), 5px -5px 2px rgba(128, 255, 0, 0.74);
+}
+
+.facilities__block-text {
+	font-family: Lato;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 28px;
+	text-decoration: overline;
+	word-spacing: 20px;
+}
+
+.facilities__block-title {
+	font-family: Lora;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 51px;
+	color: #10375C;
+	text-decoration: line-through;
+}
+
+.news__block-title {
+	font-family: Lora;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 51px;
+	color: #10375C;
+	text-transform: capitalize;
+}
+
+.member__title {
+	font-family: 'Lora';
+	font-style: italic;
+	font-weight: bold;
+	font-size: 40px;
+	color: #FFFFFF;
+	background-color: blue;
+	text-align: center;
+}
